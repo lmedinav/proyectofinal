@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* Página Shop */
+.imgShop {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.imgShop img:hover {
+  transform: scale(1.5);
+}
+
+input[type=name],
+input[type=email],
+input[type=submit] {
+  border: 2px solid #ff9a9e;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input[type=submit]:hover {
+  background: #ff9a9e;
+  color: white;
+}
+
+#feed {
+  border: 2px solid #ff9a9e;
+  border-radius: 9px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 6px;
+}
+
+/*Fuentes*/
+font {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+li a:hover {
+  color: white;
+  font-size: 20px;
+  background-color: #ff9a9e;
+  border-radius: 40px;
+}
+
+.navbar-light .navbar-toggler {
+  color: #ff9a9e !important;
+}
+
+.logo {
+  width: 280px;
+  height: 100px;
+}
+
+#titulo {
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #ff9a9e;
+  color: white;
+}
+
+#tituloDos {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+.sale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.txt-aside {
+  text-align: center;
+}
+.txt-aside p {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+.txt-aside h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  margin: 10px 0px;
+  padding: 10px 0px;
+  color: white;
+}
+
+.img-mid {
+  width: 550px;
+  height: 250px;
+}
+
+.btn-more {
+  font-family: "Poppins", sans-serif;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #ff9a9e;
+  background-color: white;
+}
+
+.btn-more:hover {
+  color: white;
+  background-color: #ff9a9e;
+}
+
+section {
+  background-color: #ff9a9e;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section .video {
+  background-color: #ff9a9e;
+  display: flex;
+  margin: 30px 0px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+section h1 {
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  margin-top: 10px;
+  border-color: #ff9a9e;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Boostrap */
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.franja {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: #ff777c;
+  color: white;
+}
+
+.franja span {
+  letter-spacing: 2px;
+  justify-content: space-evenly;
+}
+
+.btn-color {
+  color: #ff9a9e;
+}
+
+.btn-color:hover {
+  color: #ff777c;
+}
+
+.btn-dark {
+  color: white !important;
+  background-color: #ff9a9e !important;
+  border: white !important;
+}
+
+.btn-dark:hover {
+  background-color: #ff777c !important;
+}/*# sourceMappingURL=style.css.map */

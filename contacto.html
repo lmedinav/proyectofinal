@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/logo.ico">
+    <link rel="stylesheet" href="sass/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="https://kit.fontawesome.com/693739e85e.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <meta name="description" content="Anma Store, contactar a anma store mediante correo o via whatsapp">
+    <meta name="keywords" content="ropa,mujer,store,anma store, ropa de mujer, ropa de hombre, tendencias, contacto, whatsapp">
+
+    <title>Contacto</title>
+  </head>
+  <div class="container-fluid">
+    <div> 
+      <a href="index.html"><img class="logo mx-auto d-block" src="./img/logo.png" alt="logo"></a>
+    </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <a class="navbar-brand" href="#"></a>
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 animate__animated animate__fadeInDown">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+          <span class="navbar-text">
+            <a href="#" alt="Facebook"><i class="btn-color fas fa-user fa-2x"></i></a>
+            <a href="#" alt="Facebook"><i class="btn-color fas fa-shopping-cart fa-2x"></i></a>
+            <a href="#" alt="Facebook"><i class="btn-color fas fa-search fa-2x"></i></a>
+          </span>
+        </ul>
+      </div>
+    </nav>
+    </div>
+<body>
+    
+  <div id="titulo">
+    <h1 class="animate__animated animate__fadeInRight">
+      Contacto
+    </h1>
+  </div>
+
+<div class="container">
+    <div class="form-group">
+    <form action="#">
+            <label for="nombre">Nombre</label>
+            <input type="name" class="form-control" id="nombre">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email">
+            <p>Asunto</p>
+            <textarea class="form-control" name="Dejanos tu comentario" id="feed" cols="30" rows="10" placeholder="Escribe tu comentario" ></textarea>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-dark" input type="submit" data-fancybox data-animation-duration="500" data-src="#animatedModal" href="javascript:;"> Envíar</button>
+          
+          
+      </div>
+        
+  
+      <div style="display: none;" id="animatedModal" class="animated-modal text-center p-5">
+          <h2>
+              Enviado!
+          </h2>
+          <p>
+              Tu mensaje fue enviado correctamente.<br />
+          </p>
+          <p class="mb-0">
+              <svg width="150" height="150" viewBox="0 0 510 510" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path fill="#fff" d="M150.45,206.55l-35.7,35.7L229.5,357l255-255l-35.7-35.7L229.5,285.6L150.45,206.55z M459,255c0,112.2-91.8,204-204,204 S51,367.2,51,255S142.8,51,255,51c20.4,0,38.25,2.55,56.1,7.65l40.801-40.8C321.3,7.65,288.15,0,255,0C114.75,0,0,114.75,0,255 s114.75,255,255,255s255-114.75,255-255H459z"></path>
+              </svg>
+          </p>
+      </div>
+  
+  
+  <style>
+      /*
+  
+      Styles for animated modal
+      =========================
+  
+      */
+  
+      /* Start state */
+      .animated-modal {
+          max-width: 550px;
+          border-radius: 4px;
+          overflow: hidden;
+          background: linear-gradient(45deg, #ff9a9e 32%, #ff777c 100%);
+  
+          transform: translateY(-80px);
+          transition: all .5s; /* Should match `data-animation-duration` parameter */
+      }
+  
+      .animated-modal * {
+          color: #fff;
+      }
+  
+      .animated-modal h2,
+      .animated-modal p {
+          transform: translateY(-40px);
+          opacity: 0;
+  
+          transition-property: transform, opacity;
+          transition-duration: .3s;
+      }
+  
+      /* Final state */
+      .fancybox-slide--current .animated-modal,
+      .fancybox-slide--current .animated-modal h2,
+      .fancybox-slide--current .animated-modal p {
+          transform: translateY(0);
+          opacity: 1;
+  
+          transition-duration: .3s;
+      }
+  
+      /* Reveal content with different delays */
+      .fancybox-slide--current .animated-modal h2 {
+          transition-delay: .1s;
+      }
+  
+      .fancybox-slide--current .animated-modal p {
+          transition-delay: .4s;
+      }
+  
+      .fancybox-slide--current .animated-modal p:first-of-type {
+          transition-delay: .2s;
+      }
+  
+  </style>
+    </div>
+    </form>
+</div>
+
+
+
+    
+
+<footer class="container-fluid">
+  <div class="col">
+    <p class="text-center">Nuestras Redes Sociales:</p>
+  </div>
+  <div class="col-sm text-center">
+    <a href="https://facebook.com/"><i class="btn-color fab fa-facebook-square fa-2x"></i></a>
+    <a href="https://instagram.com/"><i class="btn-color fab fa-instagram fa-2x"></i></a>
+    <a href="https://youtube.com/"><i class="btn-color fab fa-youtube fa-2x"></i></a>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+  <p class="text-center">Anma Store ® 2021 - Powered by Luis Medina</p>
+    </div>
+  </div>
+  </div>
+</footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="./js/jquery.fancybox.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/76e809706a.js" crossorigin="anonymous"></script>
+</body>
+</html>

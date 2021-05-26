@@ -1,0 +1,19 @@
+//contenido contacto//@include
+
+input[type="name"],
+input[type="email"],
+input[type="submit"] {
+  border: 2px solid #ff9a9e;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+input[type="submit"]:hover {
+  background: #ff9a9e;
+  color: white;
+}
+
+#feed {
+  border: 2px solid #ff9a9e;
+  border-radius: 9px;
+}

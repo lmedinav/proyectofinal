@@ -1,0 +1,11 @@
+/* Página Shop */
+.imgShop {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .imgShop img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
